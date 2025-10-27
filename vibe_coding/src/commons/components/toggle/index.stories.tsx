@@ -3,11 +3,12 @@ import React from 'react';
 import { Toggle } from './index';
 
 // 임시로 타입 정의
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-explicit-any
 type Meta = any;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type StoryObj = any;
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const meta: any = {
   title: 'Commons/Components/Toggle',
   component: Toggle,

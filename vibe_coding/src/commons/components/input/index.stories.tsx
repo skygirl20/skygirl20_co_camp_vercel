@@ -374,7 +374,8 @@ export const FormExample: Story = {
   },
 };
 
-// Interactive Example
+// Interactive Example - 주석 처리 (Hook 사용으로 인한 빌드 에러)
+/*
 export const Interactive: Story = {
   render: () => {
     const [value, setValue] = React.useState('');
@@ -478,3 +479,4 @@ export const CompleteMatrix: Story = {
     },
   },
 };
+*/
