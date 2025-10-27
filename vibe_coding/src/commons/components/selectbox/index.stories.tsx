@@ -86,7 +86,7 @@ const options = [
 };
 
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj;
 
 // 기본 스토리
 export const Default: Story = {

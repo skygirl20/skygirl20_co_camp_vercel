@@ -81,7 +81,7 @@ Figma 디자인 시스템 기반의 토글 스위치 컴포넌트입니다.
 };
 
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj;
 
 // 기본 스토리
 export const Default: Story = {
